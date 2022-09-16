@@ -11,10 +11,17 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 ## Tecnologias:
 
 - Typescript
+
+### Web
 - React
-- React Native
-- Node.JS
 - Tailwind CSS
-- Express
 - Vite
+### Mobile
+- React Native
 - Expo
+### Back-end
+- Node.JS
+- Express
+- Prisma
+
+
