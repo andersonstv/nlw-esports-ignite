@@ -70,14 +70,14 @@ app.get('/games/:id/ads', async (request, response) =>{
         }
     })
 
-     return response.json([ads.map(ad => {
+     return response.json(ads.map(ad => {
         return {
             ...ad,
             weekDays: ad.weekDays.split,
             hourStart: convertMinutesToHourString(ad.hourStart),
             hourEnd: convertMinutesToHourString(ad.hourEnd)
         }
-     })]);
+     }));
 })
 
 app.get('/ads/:id/discord', async (request, response) =>{
