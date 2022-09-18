@@ -16,7 +16,6 @@ export interface DuoCardProps{
     weekDays: string[],
     yearsPlaying: number,
 }
-
 interface Props{
     data: DuoCardProps;
     onConnect: () => void;

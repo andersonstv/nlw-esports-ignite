@@ -25,3 +25,12 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 - Prisma
 
 
+## TO DO's
+- Tornar responsivo
+- Adicionar listagem de mais jogos (keen-slider)
+- Utilizar Select do Radix
+- Validar Form Web (zod, react-hook-form)
+- Autenticacao Web
+
+- Adicionar Notificações
+- 
