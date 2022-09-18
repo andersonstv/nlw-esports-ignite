@@ -2,6 +2,14 @@
 
 Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 
+
+
+![homepage web](/screenshots/web-homepage.png)
+<p float="left">
+  <img src="screenshots/mobile-home.jpeg" width="32%" />
+  <img src="screenshots/mobile-ads.jpeg" width="32%" /> 
+  <img src="screenshots/mobile-ad-match.jpeg" width="32%" />
+</p>
 ## Tecnologias:
 
 - Typescript
