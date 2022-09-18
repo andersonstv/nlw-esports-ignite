@@ -37,7 +37,9 @@ function App() {
       </h1>
 
       <div className='grid grid-cols-6 gap-6 mt-16'>
-        {games.map(game => {
+        {games
+        .sort((a, b) => (a._count.ads > b._count.ads) ? -1 : 1)
+        .map(game => {
           return(
             <GameBanner 
               key={game.id}
