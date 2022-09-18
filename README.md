@@ -2,12 +2,6 @@
 
 Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 
-- [x] Stage 1
-- [x] Stage 2
-- [ ] Stage 4
-- [ ] Stage 5
-- [ ] Stage 6
-
 ## Tecnologias:
 
 - Typescript
@@ -22,7 +16,7 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 ### Back-end
 - Node.JS
 - Express
-- Prisma
+- Prisma ( SQLite )
 
 
 ## TO DO's
@@ -31,6 +25,4 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 - Utilizar Select do Radix
 - Validar Form Web (zod, react-hook-form)
 - Autenticacao Web
-
 - Adicionar Notificações
-- 
