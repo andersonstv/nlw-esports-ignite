@@ -37,7 +37,7 @@ export function Home() {
         subtitle='Selecione o game que deseja jogar...'
       />
       <FlatList 
-        data={games}
+        data={games.sort((a, b) => (a._count.ads > b._count.ads ? -1 : 1))}
         keyExtractor={item => item.id}
         renderItem={({item}) =>(
           <GameCard 
