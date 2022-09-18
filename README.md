@@ -10,6 +10,7 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
   <img src="screenshots/mobile-ads.jpeg" width="32%" /> 
   <img src="screenshots/mobile-ad-match.jpeg" width="32%" />
 </p>
+
 ## Tecnologias:
 
 - Typescript
@@ -28,9 +29,9 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 
 
 ## TO DO's
-- Tornar responsivo
-- Adicionar listagem de mais jogos (keen-slider)
-- Utilizar Select do Radix
-- Validar Form Web (zod, react-hook-form)
-- Autenticacao Web
-- Adicionar Notificações
+- [ ] Responsividade
+- [ ] Adicionar listagem para mais de 6 jogos (keen-slider)
+- [ ] Utilizar Select do Radix
+- [ ] Validar Form de Criação de Ads (zod, react-hook-form)
+- [ ] Autenticacao via Discord
+- [ ] Adicionar Notificações Mobile
