@@ -29,7 +29,7 @@ Projeto desenvolvido na trilha Ignite durante a NLW eSports da Rocketseat.
 
 
 ## TO DO's
-- [ ] Responsividade
+- [ ] Responsividade ([tailwind](https://tailwindcss.com/docs/responsive-design#overview))
 - [ ] Adicionar listagem para mais de 6 jogos (keen-slider)
 - [ ] Utilizar Select do Radix
 - [ ] Validar Form de Criação de Ads (zod, react-hook-form)
