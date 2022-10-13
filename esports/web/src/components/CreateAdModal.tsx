@@ -1,8 +1,9 @@
 import { FormEvent, useEffect, useState } from 'react';
 
-import * as Dialog from '@radix-ui/react-dialog'
+import * as Dialog from '@radix-ui/react-dialog';
 import * as Checkbox from '@radix-ui/react-checkbox';
-import * as ToggleGroup from '@radix-ui/react-toggle-group'
+import * as ToggleGroup from '@radix-ui/react-toggle-group';
+import * as Select from '@radix-ui/react-select';
 
 import { Check, GameController } from 'phosphor-react'
 
@@ -64,7 +65,8 @@ export function CreateAdModal(){
             <form onSubmit={handleCreateAd} className='mt-8 flex flex-col gap-4'>
               <div className='flex flex-col gap-2'>
                 <label htmlFor="game" className='font-semibold'>Qual o game?</label>
-                <select 
+
+{/*                 <select 
                     name='game'
                     className='bg-zinc-900 px-4 py-3 rounded text-sm placeholder:text-zinc-500 appearance-none' 
                     id="game"
@@ -74,7 +76,29 @@ export function CreateAdModal(){
                     {games.map(game => {
                         return <option key={game.id} value={game.id}>{game.title}</option>
                     })}     
-                </select>
+                </select> */}
+                  <Select.Root >
+                    <Select.Trigger>
+                      <Select.Value />
+                      <Select.Icon />
+                    </Select.Trigger>
+
+                    <Select.Portal>
+                      <Select.Content>
+                        <Select.ScrollUpButton />
+                        <Select.Viewport className='bg-zinc-900 px-4 py-3 rounded text-sm appearance-none'>
+                          {games.map(game => {
+                            return <Select.Item value={game.id}>  
+                            <Select.ItemText className='bg-zinc-500'>{game.title}</Select.ItemText>
+                            <Select.ItemIndicator />
+                          </Select.Item>
+                          })}  
+                        </Select.Viewport>
+                        <Select.ScrollDownButton />
+                      </Select.Content>
+                    </Select.Portal>
+                  </Select.Root>
+
               </div>
 
               <div className='flex flex-col gap-2'>
