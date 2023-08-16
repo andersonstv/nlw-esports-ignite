@@ -22,7 +22,7 @@ function App() {
   const [games, setGames] = useState<Game[]>([]);
   
   useEffect(() =>{
-    axios('http://localhost:3333/games')
+    axios('https://nlw-esports-anderson.koyeb.app/games')
     .then(response => {
       setGames(response.data)
     })
