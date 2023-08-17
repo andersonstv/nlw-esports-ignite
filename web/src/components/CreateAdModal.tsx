@@ -30,7 +30,7 @@ export function CreateAdModal(){
         }
 
         try{
-            await axios.post(`http://localhost:3333/games/${data.game}/ads`, {
+            await axios.post(`https://nlw-esports-anderson.koyeb.app/games/${data.game}/ads`, {
                 name: data.name,
                 yearsPlaying: Number(data.yearsPlaying),
                 discord: data.discord,
@@ -49,7 +49,7 @@ export function CreateAdModal(){
     }
 
     useEffect(() =>{
-        axios('http://localhost:3333/games')
+        axios('https://nlw-esports-anderson.koyeb.app/games')
         .then(response => {
           setGames(response.data)
         })

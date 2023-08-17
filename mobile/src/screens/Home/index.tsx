@@ -20,7 +20,7 @@ export function Home() {
   }
 
   useEffect(() =>{
-    fetch('http://192.168.0.11:3333/games')
+    fetch('https://nlw-esports-anderson.koyeb.app/games')
     .then(response => response.json())
     .then(data =>setGames(data))
   }, []);
